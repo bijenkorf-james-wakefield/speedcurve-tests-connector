@@ -1,0 +1,14 @@
+{
+  "dataStudio": {
+    "name": "Speedcurve Url Test Connector",
+    "logoUrl": "https://assets.speedcurve.com/img/nav/speedcurve.524.png",
+    "company": "James Wakefield",
+    "companyUrl": "https://jameswakefield.me",
+    "addonUrl": "https://github.com/bijenkorf-james-wakefield/speedcurve-tests-connector",
+    "supportUrl": "https://github.com/bijenkorf-james-wakefield/speedcurve-tests-connector/issues",
+    "description": "A Google Design Studio connector for speedcurve test data",
+    "sources": [
+      "speedcurve"
+    ]
+  }
+}

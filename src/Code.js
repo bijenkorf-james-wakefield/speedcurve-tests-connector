@@ -170,12 +170,12 @@ function getFields(request) {
 
   fields
     .newDimension()
-    .setId("time_to_interactive")
+    .setId("largest_contentful_paint")
     .setType(types.NUMBER);
 
   fields
     .newDimension()
-    .setId("first_contentful_paint")
+    .setId("cumulative_layout_shift")
     .setType(types.NUMBER);
 
   return fields;
@@ -220,10 +220,10 @@ function responseToRows(requestedFields, response) {
           return row.push(tests["html_size"]);
         case "font_size":
           return row.push(tests["font_size"]);
-        case "first_contentful_paint":
-          return row.push(tests["first_contentful_paint"]);
-        case "time_to_interactive":
-          return row.push(tests["time_to_interactive"]);
+        case "largest_contentful_paint":
+          return row.push(tests["largest_contentful_paint"]);
+        case "cumulative_layout_shift":
+          return row.push(tests["cumulative_layout_shift"]);
         default:
           return row.push("");
       }
